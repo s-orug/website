@@ -1,4 +1,4 @@
-import React, { useState,} from "react";
+import React, { useState, useEffect } from "react";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
@@ -14,6 +14,19 @@ const Home = () => {
     setIsOpen(!isOpen);
   };
 
+  const [data, setdata] = useState({
+    date: "",
+  });
+
+  useEffect(() => {
+    fetch("/refresh_data").then((res) =>
+      res.json().then((data) => {
+        setdata({
+          date: data.Date,
+        });
+      })
+    );
+  }, []);
 
   return (
     <>
@@ -24,6 +37,11 @@ const Home = () => {
       <Project />
       <Read />
       <Contact />
+      <div className="App">
+        <header className="App-header">
+          <p>{data.date}</p>
+        </header>
+      </div>
     </>
   );
 };

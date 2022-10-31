@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Sai Durga Rithvik Oruganti Research Milestone CSCE 490
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Our team choose to use ReactJS, MongoDB, Flask, and Python stack to build for our main project.
 
-## Available Scripts
+I build a personal website that incorparates the four list above. The front-end of the website was done using ReactJS framework. The back-end of the website was done usign Flask and Python. MongoDB was used to store the data collected.
 
-In the project directory, you can run:
+## Video link for the Research Milestone
 
-### `npm start`
+I apologize for the poor video quality. When I start my server, there was noticable lag in the video. I re-recorded it multiple times and I had lag in all of them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://www.youtube.com/watch?v=RO9vsrkks7I
+
+## Prerequisites
+For the front-end and back-end, makesure you have the following pre-requisites installed:
+* Front-end
+    * npm
+    * node
+    * reactjs
+    * react-scripts
+* Back-end
+    * python3
+    * flask
+    * mongodb
+    * dnspython
+
+## Installation
+
+For python dependant packages uses the following command to install:
+
+### `pip3 install flask pymongo dnspython`
+#
+
+## Starting the Front and Back end
+
+Use `npm start` for the front-end and `python3 main.py` for the back-end.
+
+After you entered `npm start` in the terminal, 
+open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+The back-end will use [http://localhost:5000](http://localhost:5000)
+#
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sources
 
-### `npm run build`
+For the Research Mile. I learned JavaScript, ReactJS, MongoDB, and Flask. I have prior knowledge of Python through my experience in research and some of my classes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I am listing the videos/tutorials that helped me learn below
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* 1 - 40 tutorials that focused on ReactJS https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
+* ReactJS https://reactjs.org/docs/react-api.html
+* MongoDB https://www.youtube.com/watch?v=pWbMrx5rVBE
+* MongoDB https://www.youtube.com/watch?v=2QQGWYe7IDU&t=308s
+* MongoDB https://www.mongodb.com/docs/
+* Flask https://www.youtube.com/watch?v=Z1RJmh_OqeA
+* Flask https://flask.palletsprojects.com/en/2.2.x/api/
