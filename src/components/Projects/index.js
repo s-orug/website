@@ -37,7 +37,7 @@ const Project = () => {
         <ProjectSpace></ProjectSpace>
         <ProjectH2>Molecule Simulaton</ProjectH2>
         <ProjectP>
-          A simulator developed using Python for simulation the evolution of
+          A simulator developed using Python and Matlab for simulating the evolution of
           multiple molecules in a closed space.
         </ProjectP>
         <ProjectSpace></ProjectSpace>

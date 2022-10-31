@@ -22,20 +22,23 @@ export const ProjectBg = styled.div`
 `;
 
 export const ProjectH1 = styled.h1`
-  position: relative;
-  bottom: 360px;
-  display: grid;
-  color: #fff;
-  font-size: 48px;
-  text-align: center;
-  @media screen and (max-width: 768px) {
-    bottom: 380;
-    font-size: 42px;
-  }
-  @media screen and (max-width: 600px) {
-    bottom: 410px;
-    font-size: 36px;
-  }
+position: relative;
+display: grid;
+color: #fff;
+font-size: 60px;
+text-align: center;
+justify-content: center;
+bottom:-20px;
+color: #01bf71;
+
+@media screen and (max-width: 768px) {
+  height: 150px;
+  font-size: 42px;
+}
+@media screen and (max-width: 600px) {
+  height: 200px;
+  font-size: 36px;
+}
 `;
 
 export const ProjectH2 = styled.h2`
@@ -77,11 +80,12 @@ export const ProjectSpace2 = styled.p`
 `;
 
 export const ProjectContent = styled.div`
-  z-index: 3;
-  max-width: 1200px;
-  position: absolute;
-  padding: 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+z-index: 3;
+position: flex;
+padding: 8px 24px;
+display: table-cell;
+flex-direction: column;
+align-items: center;
+verticle-align: middle;
+
 `;

@@ -14,10 +14,14 @@ export const ContactContainer = styled.div`
 export const ContactH1 = styled.h1`
   position: relative;
   bottom: 250px;
-  display: grid;
   color: #fff;
   font-size: 48px;
+  width: 100%;
   text-align: center;
+  vertical-align: center;
+  bottom: -120px;
+  color: #01bf71;
+
   @media screen and (max-width: 768px) {
     bottom: 240;
     font-size: 42px;
@@ -30,11 +34,12 @@ export const ContactH1 = styled.h1`
 
 export const ContactH2 = styled.h2`
   position: relative;
-  bottom: 0px;
-  display: grid;
+  bottom: 200px;
+  display: flex;
   color: #fff;
   font-size: 32px;
   text-align: center;
+  justify-content: center;
   min-width: 500px;
   @media screen and (max-width: 768px) {
     font-size: 28px;
@@ -49,7 +54,7 @@ export const ContactP = styled.p`
   color: #fff;
   font-size: 30px;
   text-align: center;
-  max-width: 5000px;
+  vertical-align:middle;
   @media screen and (max-width: 768px) {
     font-size: 30px;
   }
@@ -67,11 +72,12 @@ export const ContactSpace2 = styled.p`
 `;
 
 export const ContactContent = styled.div`
-  z-index: 3;
-  max-width: 1200px;
-  position: absolute;
-  padding: 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+z-index: 3;
+position: flex;
+padding: 8px 24px;
+display: table-cell;
+flex-direction: column;
+align-items: center;
+verticle-align: middle;
+
 `;

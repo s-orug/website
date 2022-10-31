@@ -33,12 +33,11 @@ const About = () => {
           assistance with electronics in their projects.
         </AboutP>
         <AboutSpace></AboutSpace>
+        <AboutSpace></AboutSpace>
         <AboutP>
           My interests are in AI/ML, signal analysis, and reinforcement
           learning.
         </AboutP>
-
-        <AboutSpace></AboutSpace>
         <AboutP>
           Outside of work, I read, make projects with microcontrollers, and play
           tennis.

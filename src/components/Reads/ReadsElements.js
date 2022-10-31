@@ -1,36 +1,41 @@
 import styled from "styled-components";
 
 export const ReadContainer = styled.div`
-  background: #0f0f0f;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 0 30px;
-  height: 900px;
-  position: relative;
-  z-index: 1;
+background: #0f0f0f;
+display: grid;
+justify-content: center;
+align-items: center;
+padding: 0 30px;
+height: 900px;
+position: relative;
+z-index: 1;
+text-align: center;
 `;
 
 export const ReadH1 = styled.h1`
-  position: relative;
-  bottom: 360px;
-  display: grid;
-  color: #fff;
-  font-size: 48px;
-  text-align: center;
-  @media screen and (max-width: 768px) {
-    bottom: 380;
-    font-size: 42px;
-  }
-  @media screen and (max-width: 600px) {
-    bottom: 410px;
-    font-size: 36px;
-  }
+position: relative;
+display: grid;
+color: #fff;
+font-size: 60px;
+text-align: center;
+justify-content: center;
+bottom:-40px;
+color: #01bf71;
+
+
+@media screen and (max-width: 768px) {
+  bottom: 25px;
+  font-size: 40px;
+}
+@media screen and (max-width: 600px) {
+  bottom: 330px;
+  font-size: 40px;
+}
 `;
 
 export const ReadH2 = styled.h2`
   position: relative;
-  bottom: 0px;
+  bottom: 100px;
   display: grid;
   color: #fff;
   font-size: 32px;
@@ -45,11 +50,12 @@ export const ReadH2 = styled.h2`
 `;
 
 export const ReadP = styled.p`
-  margin-top: 24px;
   color: #fff;
   font-size: 30px;
   text-align: center;
-  max-width: 5000px;
+  justify-content: center;
+  height: 200px;
+
   @media screen and (max-width: 768px) {
     font-size: 30px;
   }
@@ -67,11 +73,11 @@ export const ReadSpace2 = styled.p`
 `;
 
 export const ReadContent = styled.div`
-  z-index: 3;
-  max-width: 1200px;
-  position: absolute;
-  padding: 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+z-index: 3;
+position: flex;
+padding: 8px 24px;
+display: table-cell;
+flex-direction: column;
+align-items: center;
+verticle-align: middle;
 `;
