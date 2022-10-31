@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.a53e50f1.css",
-    "main.js": "/website/static/js/main.bad13c4e.js",
-    "static/media/jtupper_SIGGRAPH2001.pdf": "/website/static/media/jtupper_SIGGRAPH2001.ca50c6f1d6820b7d622e.pdf",
-    "static/media/Resume.pdf": "/website/static/media/Resume.8244fb214513ccd3f7d7.pdf",
-    "static/media/IMG_1847.jpg": "/website/static/media/IMG_1847.fbf2707e671764347941.jpg",
-    "index.html": "/website/index.html",
-    "main.a53e50f1.css.map": "/website/static/css/main.a53e50f1.css.map",
-    "main.bad13c4e.js.map": "/website/static/js/main.bad13c4e.js.map"
+    "main.css": "/s-orug.github.io/static/css/main.a53e50f1.css",
+    "main.js": "/s-orug.github.io/static/js/main.a1f692d5.js",
+    "static/media/jtupper_SIGGRAPH2001.pdf": "/s-orug.github.io/static/media/jtupper_SIGGRAPH2001.ca50c6f1d6820b7d622e.pdf",
+    "static/media/Resume.pdf": "/s-orug.github.io/static/media/Resume.8244fb214513ccd3f7d7.pdf",
+    "static/media/IMG_1847.jpg": "/s-orug.github.io/static/media/IMG_1847.fbf2707e671764347941.jpg",
+    "index.html": "/s-orug.github.io/index.html",
+    "main.a53e50f1.css.map": "/s-orug.github.io/static/css/main.a53e50f1.css.map",
+    "main.a1f692d5.js.map": "/s-orug.github.io/static/js/main.a1f692d5.js.map"
   },
   "entrypoints": [
     "static/css/main.a53e50f1.css",
-    "static/js/main.bad13c4e.js"
+    "static/js/main.a1f692d5.js"
   ]
 }
