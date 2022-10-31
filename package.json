@@ -2,7 +2,7 @@
   "name": "s-orug.github.io",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://s-orug.github.io/s-orug.github.io",
+  "homepage": "https://s-orug.github.io/website",
   "plugins": [
     "react-hooks"
   ],
