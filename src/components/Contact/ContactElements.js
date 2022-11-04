@@ -23,11 +23,11 @@ export const ContactH1 = styled.h1`
   color: #01bf71;
 
   @media screen and (max-width: 768px) {
-    bottom: 240;
+    bottom: -110px;
     font-size: 42px;
   }
   @media screen and (max-width: 600px) {
-    bottom: 220px;
+    bottom: -100px;
     font-size: 36px;
   }
 `;

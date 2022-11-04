@@ -28,15 +28,15 @@ color: #fff;
 font-size: 60px;
 text-align: center;
 justify-content: center;
-bottom:-20px;
+bottom:-50px;
 color: #01bf71;
 
 @media screen and (max-width: 768px) {
-  height: 150px;
+  height: -100px;
   font-size: 42px;
 }
 @media screen and (max-width: 600px) {
-  height: 200px;
+  height: -160px;
   font-size: 36px;
 }
 `;

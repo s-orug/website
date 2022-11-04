@@ -25,22 +25,22 @@ export const AboutBg = styled.div`
 
 export const AboutH1 = styled.h1`
 position: relative;
-bottom: 250px;
+bottom: -50px;
 color: #fff;
 font-size: 60px;
 width: 100%;
 text-align: center;
 vertical-align: center;
-bottom: -120px;
 color: #01bf71;
 
 
 @media screen and (max-width: 768px) {
-  bottom: 240;
+  bottom: -100;
   font-size: 42px;
+
 }
 @media screen and (max-width: 600px) {
-  bottom: 220px;
+  bottom: -110px;
   font-size: 36px;
 }
 `;
@@ -55,7 +55,7 @@ export const AboutP = styled.p`
 
   @media screen and (max-width: 768px) {
     height:100px;
-    font-size: 24px;
+    font-size: 20px;
   }
   @media screen and (max-width: 480px) {
     font-size: 16px;

@@ -24,11 +24,11 @@ color: #01bf71;
 
 
 @media screen and (max-width: 768px) {
-  bottom: 25px;
+  bottom: 0px;
   font-size: 40px;
 }
 @media screen and (max-width: 600px) {
-  bottom: 330px;
+  bottom: -100px;
   font-size: 40px;
 }
 `;
