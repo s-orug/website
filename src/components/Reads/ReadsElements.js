@@ -41,12 +41,15 @@ export const ReadH2 = styled.h2`
   font-size: 32px;
   text-align: center;
   min-width: 500px;
+  text-decoration: none;
+  
   @media screen and (max-width: 768px) {
     font-size: 28px;
   }
   @media screen and (max-width: 600px) {
     font-size: 24px;
   }
+
 `;
 
 export const ReadP = styled.p`
